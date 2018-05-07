@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/question_text_view"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_weight="0"
         android:gravity="bottom"
@@ -72,17 +72,32 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="center"
-        android:layout_weight="1">
+        android:gravity="center">
 
         <Button
             android:id="@+id/next_button_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:text="@string/next_button"/>
+
+        <Button
+            android:id="@+id/finish_button_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/finish_button"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/number_correct_answers_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_weight="1"
+        tools:text="Correct Answers: 3"/>
 
 </LinearLayout>

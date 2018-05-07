@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Sengoku Quiz</string>
     <string name="next_button">Next</string>
+    <string name="finish_button">Finish</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="number_correct_answers">Correct Answers:</string>
+    <string name="total_answers">Total Questions Answered:</string>
+    <string name="score">Score:</string>
+    <string name="congratulation_text">Congratulation on finishing the quiz! Yay!!!</string>
+
     <string name="question_1">Who was referred to as "The Tiger of Kai" for his martial prowess in the battlefield?</string>
     <string name="question_1_A">A. Oda Nobunaga</string>
     <string name="question_1_B">B. Uesugi Kenshin</string>
