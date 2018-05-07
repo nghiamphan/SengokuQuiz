@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sengoku Quiz</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="question_1">Who was referred to as "The Tiger of Kai" for his martial prowess in the battlefield?</string>
+    <string name="question_1_A">A. Oda Nobunaga</string>
+    <string name="question_1_B">B. Uesugi Kenshin</string>
+    <string name="question_1_C">C. Takeda Shingen</string>
+    <string name="question_1_D">D. Tokugawa Ieyasu</string>
+    <string name="question_1_answer">2</string>
+
+    <string name="question_2">Who eventually become Shogun in 1600?</string>
+    <string name="question_2_A">A. Oda Nobunaga</string>
+    <string name="question_2_B">B. Uesugi Kenshin</string>
+    <string name="question_2_C">C. Toyotomi Hideyoshi</string>
+    <string name="question_2_D">D. Tokugawa Ieyasu</string>
+    <string name="question_2_answer">3</string>
+</resources>
