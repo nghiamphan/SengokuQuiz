@@ -30,4 +30,9 @@
         android:layout_height="wrap_content"
         tools:text="Score: 75%"/>
 
+    <TextView
+        android:id="@+id/build_version_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

@@ -2,10 +2,9 @@ package com.nphan.android.sengokuquiz;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class SummaryActivity extends AppCompatActivity {
@@ -16,6 +15,7 @@ public class SummaryActivity extends AppCompatActivity {
     private TextView mNumberCorrectAnswersTextView;
     private TextView mTotalAnsweredTextView;
     private TextView mScoreTextView;
+    private TextView mBuildVersionTextView;
 
     private int mNumberCorrectAnswers;
     private int mTotalAnswered;
@@ -50,5 +50,8 @@ public class SummaryActivity extends AppCompatActivity {
         }
         String scoreText = getResources().getString(R.string.score);
         mScoreTextView.setText(scoreText + " " + String.format("%.2f", score) + "%");
+
+        mBuildVersionTextView = findViewById(R.id.build_version_text_view);
+        mBuildVersionTextView.setText("API Level: " + Integer.toString(Build.VERSION.SDK_INT));
     }
 }
